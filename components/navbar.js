@@ -3,7 +3,13 @@ import ThemeChanger from "./DarkSwitch";
 import { Disclosure } from "@headlessui/react";
 
 export default function Navbar() {
-  const navigation = ["Governance", "Docs", "Community"];
+  const navigation = [
+    "Start Compaign",
+    "Projects",
+    "Launch",
+    "Collaborate",
+    "Hire",
+  ];
 
   return (
     <div className="w-full">
@@ -14,16 +20,21 @@ export default function Navbar() {
             <>
               <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
                 <Link href="/">
-                  <a className="flex items-center space-x-2 text-2xl font-medium text-blue-400">
-                  <span>
-                      <img src="/img/logo.png" alt="ECSY" width="260" height="60" />
+                  <a className="flex items-center space-x-2 text-2xl font-medium text-pink-500">
+                    <span>
+                      <img
+                        src="/img/logo.png"
+                        alt="CrowdNuru"
+                        width="290"
+                        height="60"
+                      />
                     </span>
                   </a>
                 </Link>
 
                 <Disclosure.Button
                   aria-label="Toggle Menu"
-                  className="px-2 py-1 ml-auto text-gray-500 rounded-md lg:hidden hover:text-blue-400 focus:text-blue-400 focus:bg-blue-100 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700"
+                  className="px-2 py-1 ml-auto text-gray-500 rounded-md lg:hidden hover:text-pink-500 focus:text-pink-500 focus:bg-blue-100 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700"
                 >
                   <svg
                     className="w-6 h-6 fill-current"
@@ -50,14 +61,14 @@ export default function Navbar() {
                   <>
                     {navigation.map((item, index) => (
                       <Link key={index} href="/">
-                        <a className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-blue-400 focus:text-blue-400 focus:bg-blue-100 dark:focus:bg-gray-800 focus:outline-none dark:focus:bg-trueGray-700">
+                        <a className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-pink-500 focus:text-pink-500 focus:bg-blue-100 dark:focus:bg-gray-800 focus:outline-none dark:focus:bg-trueGray-700">
                           {item}
                         </a>
                       </Link>
                     ))}
                     <Link href="/">
-                      <a className="w-full px-6 py-2 mt-3 text-center text-white bg-blue-400 rounded-md lg:ml-5">
-                        Launch App
+                      <a className="w-full px-6 py-2 mt-3 text-center text-white bg-pink-500 rounded-md lg:ml-5">
+                        Connect Wallet
                       </a>
                     </Link>
                   </>
@@ -73,7 +84,7 @@ export default function Navbar() {
             {navigation.map((menu, index) => (
               <li className="mr-3 nav__item" key={index}>
                 <Link href="/">
-                  <a className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-blue-400 focus:text-blue-400 focus:bg-blue-100 focus:outline-none dark:focus:bg-gray-800">
+                  <a className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-pink-500 focus:text-pink-500 focus:bg-blue-100 focus:outline-none dark:focus:bg-gray-800">
                     {menu}
                   </a>
                 </Link>
@@ -84,8 +95,8 @@ export default function Navbar() {
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
           <Link href="/">
-            <a className="px-6 py-2 text-white bg-blue-400 rounded-md md:ml-5">
-              Launch App
+            <a className="px-6 py-2 text-white bg-pink-500 rounded-md md:ml-5">
+              Connect Wallet
             </a>
           </Link>
 
