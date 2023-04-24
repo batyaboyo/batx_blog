@@ -7,11 +7,11 @@ import Web3 from "web3";
 
 export default function Navbar() {
   const navigation = [
-    "Start Campaign",
     "Projects",
     "Launch",
     "Collaborate",
     "Hire",
+    "Start Campaign",
   ];
 
   const [web3, setWeb3] = useState(null);
@@ -55,18 +55,18 @@ export default function Navbar() {
       <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0">
         {/* Logo  */}
         <Disclosure>
-        <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
-          <Link href="/">
-            <a className="flex items-center space-x-2 text-2xl font-medium text-gray-900 dark:text-white">
-              <img
-                src="/img/logo.png"
-                alt="CrowdNuru"
-                width="290"
-                height="60"
-              />
-            </a>
-          </Link>
-          
+          <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
+            <Link href="/">
+              <a className="flex items-center space-x-2 text-2xl font-medium text-gray-900 dark:text-white">
+                <img
+                  src="/img/logo.png"
+                  alt="CrowdNuru"
+                  width="290"
+                  height="60"
+                />
+              </a>
+            </Link>
+
             <Disclosure.Button
               aria-label="Toggle Menu"
               className="px-2 py-1 ml-auto text-gray-500 rounded-md lg:hidden hover:text-pink-500 focus:text-pink-500 focus:bg-blue-100 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700"
@@ -83,7 +83,7 @@ export default function Navbar() {
                 />
               </svg>
             </Disclosure.Button>
-          
+
             <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
               <>
                 {navigation.map((item, index) => (
@@ -112,7 +112,7 @@ export default function Navbar() {
                 )}
               </>
             </Disclosure.Panel>
-        </div>
+          </div>
         </Disclosure>
         {/* menu  */}
         <div className="hidden text-center lg:flex lg:items-center">
