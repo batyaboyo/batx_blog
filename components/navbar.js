@@ -7,7 +7,7 @@ import Web3 from "web3";
 
 export default function Navbar() {
   const navigation = [
-    "Start Compaign",
+    "Start Campaign",
     "Projects",
     "Launch",
     "Collaborate",
