@@ -1,7 +1,7 @@
 {
-  "name": "ecsynths",
+  "name": "crowdnuru",
   "version": "0.1.0",
-  "description": "Nextly Landing Page Template",
+  "description": "CrowdNuru is a decentralized Crowdfunding, LaunchPad, Hiring and Collaboration Platform",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gituhb.com/devbxtzz/ecsynthetic"
+    "url": "https://gituhb.com/devbxtzz/crowdnuru"
   },
   "keywords": [
-    "ecsynths",
-    "derivatives",
-    "synthetics"
+    "crowdfunding",
+  "launchpad",
+    "collaborate"
   ],
   "author": "Tonny Batya",
   "license": "ISC",
