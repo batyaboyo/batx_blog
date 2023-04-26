@@ -11,7 +11,7 @@ export default function Navbar() {
     "Launch",
     "Collaborate",
     "Hire",
-    "Start Campaign",
+    "Raise Funds",
   ];
 
   const [web3, setWeb3] = useState(null);
