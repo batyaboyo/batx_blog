@@ -10,7 +10,7 @@ export default function Home() {
         <title>Crowdnuru</title>
         <meta
           name="description"
-          content="Crowdnuru is a decentralized Crowdfunding, LaunchPad, Hiring and Collaboration Platform for innovative African Developers and Investors"
+          content="Croudouz is a decentralized Crowdfunding, LaunchPad, Hiring and Collaboration Platform for innovative African Developers and Investors"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
