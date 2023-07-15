@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 className="text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:text-3xl lg:leading-tight xl:text-5xl xl:leading-tight dark:text-white">
-              <span className="text-pink-500">CrowdNuru </span> is a
+              <span className="text-pink-500">Croudouz</span> is a
               decentralized Crowdfunding, LaunchPad, Hiring and Collaboration
               Platform.
             </h1>
