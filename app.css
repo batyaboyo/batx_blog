@@ -4,6 +4,7 @@ header {
     height: 100dvh;
     width: 100%;
     background: #012;
+    background-image: url("Assets/bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,16 +16,16 @@ header {
 
 
 .brand {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 500;
     font-family: "Hammersmith One";
-    color: rgb(185, 158, 6);
+    color: #FACF39;
 }
 
 .brandTagline {
     margin:1rem;
-    font-size: 1.7rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 400;
     font-family: "Montserrat";
     /*text-shadow: 3px 3px #012;*/
 }
@@ -34,7 +35,7 @@ header {
 }
 
 .button {
-    background-color:  rgb(185, 158, 6);
+    background-color:  #FACF39;
     color: white;
     margin:1rem;
     font-size: 1.2rem;
