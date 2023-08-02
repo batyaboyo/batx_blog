@@ -1,0 +1,56 @@
+header {
+    margin: 0;
+    color: white;
+    height: 100dvh;
+    width: 100%;
+    background: #012;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    Justify-content: center;
+}
+
+
+.brand {
+    font-size: 5rem;
+    font-weight: 500;
+    font-family: "Hammersmith One";
+    color: rgb(185, 158, 6);
+}
+
+.brandTagline {
+    margin:1rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-family: "Montserrat";
+    /*text-shadow: 3px 3px #012;*/
+}
+
+.join{
+  margin-top: 2.2rem;
+}
+
+.button {
+    background-color:  rgb(185, 158, 6);
+    color: white;
+    margin:1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.6rem 1rem;
+    border: 0px;
+    border-radius: 3px;
+    font-family: "Montserrat";
+}
+
+@media only screen and (max-width: 600px) {
+  .brand {
+    font-size: 3.5rem;
+  }
+
+  .brandTagline {
+    font-size: 1.5rem;
+  }
+}
