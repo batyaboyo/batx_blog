@@ -4,7 +4,7 @@ header {
     height: 100dvh;
     width: 100%;
     background: #012;
-    background-image: url("https://wallpapercave.com/wp/wp2026646.jpg");
+    background-image: url("https://lshubwales.com/sites/default/files/2020-12/iStock-1172940354.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,7 +16,6 @@ header {
 
 .brandTagline {
     font-size: 1.8rem;
-    color: black;
     font-weight: 900;
     font-family: "Montserrat";
 }
