@@ -1,48 +1,58 @@
 header {
     margin: 0;
-    color: white;
+    color: #012;
     height: 100dvh;
     width: 100%;
-    background: #012;
-    background-image: url("https://www.lovelandinnovations.com/wp-content/uploads/2018/12/bigstock-Bulb-Future-Technology-Innova-243215101.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     align-items: center;
     text-align: center;
     Justify-content: center;
 }
 
-.brandTagline {
-    font-size: 1.8rem;
+.brand {
+    color: #FACF39;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 3.2rem;
     font-weight: 900;
+    font-family: "Hammersmith One";
+}
+
+.brandTagline {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
     font-family: "Montserrat";
 }
-
-.join{
-  margin-top: 2.2rem;
-}
-
 .button {
     background-color:  #FACF39;
-    color: black;
-    margin:1rem;
+    color: #012;
+    margin: 1rem;
     font-size: 1.2rem;
     font-weight: 600;
-    padding: 0.6rem 1rem;
+    padding: 0.6rem;
     border: 0px;
-    border-radius: 3px;
+    border-radius: 5px;
     font-family: "Montserrat";
+}
+
+ .button:hover {
+    background-color:  #012;
+    color: #FACF39;
 }
 
 @media only screen and (max-width: 600px) {
   
-  .brand img {
-  width: 65%;
+  .brand {
+    font-size: 1.8rem;
   }
   .brandTagline {
-    font-size: 1.3rem;
+    font-size: 0.7rem;
     width: auto;
   }
+  .button {
+    font-size : 0.8rem;
+}
+
 }
