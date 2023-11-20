@@ -19,7 +19,7 @@ header {
 }
 
 .brandTagline {
-    margin: 0.5rem;
+    margin: 0.5rem 8rem;
     padding: 0.5rem;
     font-size: 1.5rem;
     font-weight: 500;
@@ -42,12 +42,15 @@ header {
     color: #FACF39;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 760px) {
   
   .brand {
     font-size: 1.8rem;
   }
-  .brandTagline {
+
+.brandTagline {
+    margin: 0.5rem;
+    padding: 0.2rem;
     font-size: 0.7rem;
     width: auto;
   }
